@@ -1,7 +1,7 @@
 
 // uncomment "OUTPUT_TEAPOT" if you want output that matches the
 // format used for the InvenSense teapot demo
-#define OUTPUT_TEAPOT
+//#define OUTPUT_TEAPOT
 
 // uncomment "BLUETOOTH_MODE" if you want to pilot the motors
 // with the bluetooth remote controller
