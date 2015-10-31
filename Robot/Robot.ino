@@ -112,8 +112,8 @@ void setup()
 	//MotorDrive.init(DRIVE_MOTOR_SENSE_1, DRIVE_MOTOR_SENSE_2, DRIVE_MOTOR_PWM);
 
 	// configure the steering and driving threads
-	Scheduler.startLoop(loopSteer);
-	Scheduler.startLoop(loopDrive);
+	Scheduler.startLoop(loopSteer,128);
+	Scheduler.startLoop(loopDrive,128);
 
 
 	// MPU6050 SETUP **************************************************************
