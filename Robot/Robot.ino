@@ -17,8 +17,8 @@
 
 //using namespace std;
 
-#define STEER_DELAY     20
-#define DRIVE_DELAY     20
+#define STEER_DELAY     25
+#define DRIVE_DELAY     25
 
 int val_steer = 0;         // steer servo value
 int val_drive = 0;         // drive servo value
