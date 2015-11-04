@@ -20,8 +20,8 @@
 #define STEER_DELAY     20
 #define DRIVE_DELAY     20
 
-int val_steer = 0;         // steer servo value
-int val_drive = 0;         // drive servo value
+int val_steer = 1;         // steer servo value
+int val_drive = 1;         // drive servo value
 
 // tourelle servo definition
 Servo_ActuatorClass TourelleYaw(6,820,2100,90);
